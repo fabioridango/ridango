@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="TestSeleniumNG.testfirst">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="ridango2"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestSeleniumNG.testfirst -->
+      <class name="TestSeleniumNG.testsecond">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- TestSeleniumNG.testsecond -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

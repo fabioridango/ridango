@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11922" started-at="2016-06-13T08:17:19Z" finished-at="2016-06-13T08:17:31Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="5987" started-at="2016-06-13T08:17:19Z" finished-at="2016-06-13T08:17:25Z">
+      <class name="TestSeleniumNG.testfirst">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestSeleniumNG.testfirst@23852c7f]" name="beforeTest" is-config="true" duration-ms="1683" started-at="2016-06-13T11:17:19Z" finished-at="2016-06-13T11:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="ridango()[pri:0, instance:TestSeleniumNG.testfirst@23852c7f]" name="ridango" duration-ms="3149" started-at="2016-06-13T11:17:20Z" finished-at="2016-06-13T11:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ridango -->
+        <test-method status="FAIL" signature="ridango2()[pri:0, instance:TestSeleniumNG.testfirst@23852c7f]" name="ridango2" duration-ms="11" started-at="2016-06-13T11:17:24Z" finished-at="2016-06-13T11:17:24Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+	Type mismatch: cannot convert from String to int
+	Syntax error on token ",", ; expected
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+	Type mismatch: cannot convert from String to int
+	Syntax error on token ",", ; expected
+
+	at TestSeleniumNG.testfirst.ridango2(testfirst.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ridango2 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestSeleniumNG.testfirst@23852c7f]" name="afterTest" is-config="true" duration-ms="1097" started-at="2016-06-13T11:17:24Z" finished-at="2016-06-13T11:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestSeleniumNG.testfirst -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="5897" started-at="2016-06-13T08:17:25Z" finished-at="2016-06-13T08:17:31Z">
+      <class name="TestSeleniumNG.testsecond">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestSeleniumNG.testsecond@3aa19e64]" name="beforeTest" is-config="true" duration-ms="1231" started-at="2016-06-13T11:17:25Z" finished-at="2016-06-13T11:17:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="ridango()[pri:0, instance:TestSeleniumNG.testsecond@3aa19e64]" name="ridango" duration-ms="2633" started-at="2016-06-13T11:17:26Z" finished-at="2016-06-13T11:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ridango -->
+        <test-method status="PASS" signature="ridango2()[pri:0, instance:TestSeleniumNG.testsecond@3aa19e64]" name="ridango2" duration-ms="927" started-at="2016-06-13T11:17:29Z" finished-at="2016-06-13T11:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ridango2 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestSeleniumNG.testsecond@3aa19e64]" name="afterTest" is-config="true" duration-ms="1098" started-at="2016-06-13T11:17:30Z" finished-at="2016-06-13T11:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestSeleniumNG.testsecond -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
