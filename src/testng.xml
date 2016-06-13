@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+
+  <test name="Test1">
+    <classes>
+      <class name="TestSeleniumNG.testfirst"/>
+    </classes>
+  </test>
+
+  <test name="Test2">
+    <classes>
+      <class name="TestSeleniumNG.testsecond"/>
+    </classes>
+  </test>
+
+</suite> 
